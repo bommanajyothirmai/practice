@@ -18,9 +18,9 @@
 //}
 
 class hai{
-    public static void main(String[] args) {
+     static void main(String[] args) {
         int num1 = 10;
-        int num2 = 5;
+        int num2 = 25;
         int result = num1+num2;
         System.out.println(result);
     }
