@@ -1,27 +1,18 @@
-//class Main {
-//    public static void main(String[] args) {
-//        System.out.println("Hello World");
-//    }
-//}
+ class ArithmeticOperators {
+    public static void main(String[] args) {
+        int a = 10;
+        int b = 5;
 
-//class Hello{
-//    public static void main(String[] args){
-//        System.out.println("Hello");
-//    }
-//}
+        int sum = a+b;
+        int minus = a-b;
+        int multiply = a*b;
+        int division = a/b;
+        int remainder = a%b;
 
-//class hello{
-//    public static void main(String[] args) {
-//        int num = 5;
-//        System.out.println(num);
-//    }
-//}
-
-class hai{
-     static void main(String[] args) {
-        int num1 = 10;
-        int num2 = 25;
-        int result = num1+num2;
-        System.out.println(result);
+        System.out.println("Addition: " + sum);
+        System.out.println("Subtraction: " + minus);
+        System.out.println("multiply: " + multiply);
+        System.out.println("division: " + division);
+        System.out.println("modulus: " + remainder);
     }
-}
+ }
