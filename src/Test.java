@@ -1,4 +1,3 @@
-// Parent Class
 class Animal {
 
     void eat() {
@@ -6,7 +5,7 @@ class Animal {
     }
 }
 
-// Child Class
+
 class Dog extends Animal {
 
     void bark() {
@@ -14,14 +13,13 @@ class Dog extends Animal {
     }
 }
 
-// Main Class
 public class Test {
 
     public static void main(String[] args) {
 
         Dog d = new Dog();
 
-        d.eat();   // Inherited method from Animal
-        d.bark();  // Dog class method
+        d.eat();
+        d.bark();
     }
 }
