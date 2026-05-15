@@ -1,5 +1,5 @@
 public class checkPerfectNumber {
-    public static void main(String[] args){
+    public static void main(String[] args) {
         int num = 6;
         int sum = 0;
 
